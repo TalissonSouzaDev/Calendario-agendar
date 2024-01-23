@@ -1,0 +1,42 @@
+header {
+    margin: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+padding-left: 48em;
+
+}
+
+.can {
+    width: 40%;
+}
+
+.modal-body {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+#agendamento-card
+{
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    padding-left: 1em;
+    font-size: 25px;
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+#agendamento-card > input
+{
+    width: 100%;
+    cursor: pointer;
+}
